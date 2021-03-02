@@ -1,0 +1,86 @@
+/*Category Products*/
+
+.category-title{
+    margin-bottom: 15px;
+    font-weight: bold;
+  font-size: 40px;
+  margin-top: 54px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #1E0606;
+  letter-spacing: 3px;
+}
+
+/*product-items*/
+.product-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-right: -10px;
+    margin-bottom: 0px;
+}
+
+.category-item{
+    position: relative;
+    width: 280px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.category-item:nth-child(4n){
+    margin-left: 200px;
+    margin-top: 23px;
+}
+
+.category-item:nth-child(5n){
+    margin-top: 23px;
+}
+
+.category-item:nth-child(6n){
+    margin-top: 23px;
+}
+
+.heading-title {
+    position: absolute;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.about-us-title{
+    margin: 55px 0 0 200px;
+}
+
+.about-us-desc{
+    margin: 25px 0 0px 200px;
+}
+
+.about-us-desc1{
+margin: 15px 0 15px 200px;
+}
+
+.about-us-desc2{
+margin-left: 200px;
+margin-bottom: 55px;
+}
+
+.about-us-title{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+}

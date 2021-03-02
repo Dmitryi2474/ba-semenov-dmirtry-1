@@ -1,0 +1,62 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.heading-text{
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+margin: 2px 0px 15px 0px;
+letter-spacing: 1px;
+}
+
+.date-heading{
+    margin: 18px 0px 0px;
+}
+
+.text{
+    letter-spacing: 0.9px;
+    line-height: 1.6;
+}
+
+.item{
+    margin-top: 50px; 
+    width: 380px;    
+}
+
+.conteiner-1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item-1{
+margin-right: 20px;
+}
+
+.number-item{
+    padding: 0px;
+}
+
+.vector-list1{
+margin-right: 457px;
+}
+
+.number-list{
+    margin-right: 67px;
+}
+
+.number-list:nth-child(5n){
+margin-right: 0px;
+}
+
+.vector-list2{
+    margin-left: 430px;
+}

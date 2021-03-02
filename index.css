@@ -1,0 +1,378 @@
+.contact-form{
+}
+
+.contact-form.open{
+    display: block;
+
+}
+
+.contact-form-btn{
+    position: fixed;
+    width: 15px;
+    height: 14px;
+    left: 1050px;
+    border: none;
+    background-image: url(./img/XMLID\ 1429.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.colecttion-conteiner{
+    background-color: #EEE4DB;
+    width: 1180px;
+    height:411px ;
+    position: relative;
+    display: flex;
+}
+
+.colecttion-title{ 
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 110%;
+color: #1E0606;
+margin: auto;
+
+}
+
+.colecttion-text{
+    font-family: Crimson Text;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+}
+
+.colecttion-item{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.number-solid{
+list-style: none;
+}
+.number{
+    margin-top: 17px;
+    margin-bottom: 0px;
+    padding-left: 28px;
+}
+
+.number-sllider{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.sllider-solid{
+    width: 31px;
+    height: 3px;
+    background: #D6CAC2;
+    border: none;
+    margin-top: -15px;
+}
+
+.sllider-botton{
+    margin-top: -32px;
+    padding: 1px 0;
+    background: #C29974;
+}
+
+.slleder-left{
+padding: 89px 0 0 44px;
+}
+
+.slleder-rieght{
+    margin: -100px 0 0 0;
+    padding-right: 99px;
+}
+
+.colecttion-batton{
+    padding: 9px 22px;
+    background-color: black;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF
+}
+
+.colecttion-conteiner-botton{
+    background: #C29974;
+}
+
+.slleder{
+    margin-top: 129px;
+    background: #EEE4DB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-heading{
+    margin-top: 90px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+margin-bottom: 0px;
+}
+
+.category-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 0px;
+}
+
+.category-item{
+    position: relative;
+    width: 280px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.heading-title{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.klick-button{
+    padding-left: 0px;
+    margin: 0px; 
+}
+
+.left-btn, 
+.reight-btn {
+border: none;
+}
+
+.klick{
+   display: flex;
+   margin-top: 33px;
+}
+
+.klick-text{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom:0px
+}
+
+/*deliveri*/
+
+.diliveri-list{
+    padding-left: 0px;
+    margin-top: 90px;
+
+}
+
+.diliveri-title{
+    margin-bottom: 19px;
+    margin-top: 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+}
+
+.diliveri-heading{
+    margin: 0px;
+}
+
+.diliveri-list{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.diliveri-link{
+    margin-left: 120px;
+}
+
+
+.diliveri-heading{
+    font-family: Crimson Text;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+color: #1E0606;
+margin-top: 22px;
+}
+
+.diliveri-fon{
+    font-family: Crimson Text;
+font-style: italic;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+color: #1E0606;
+}
+
+.diliveri-items{
+    list-style: none;
+}
+
+.diliveri-button{
+    margin-top: 26px;
+    width: 149px;
+    height: 40px;
+    padding: 9px 18px;
+    background-color: black;
+    font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF
+}
+
+/*partner*/
+
+.parntner{
+    margin-bottom: 116px;
+    margin-top: 90px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+}
+
+/*disign-contact*/
+
+.disign-contact-block{
+    display: flex;
+}
+
+.Life-Kids-title{
+margin-right: 57px;
+background: #E1F0F7;
+width: 543px;
+height: 236px;
+}
+
+.Life-Kids-heading{
+    margin-top: -26px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606
+}
+
+.about{
+    margin: 10px 0px 0px 30px;
+    font-family: Crimson Text;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+color: #1E0606;
+}
+
+.disign-text{
+    margin: 10px 30px 0px;
+}
+
+.Life-Kids-button{
+    margin: 20px 30px;
+    width: 123px;
+    height: 40px;
+    padding: 9px 20px;
+    background-color: black;
+    font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.contact-title{
+    background: #E1F0F7;;
+    position: relative ;
+    width:543px ;
+    height:209px ;
+    margin-bottom: 174px;
+}
+
+.contac-heading{
+    margin-top: -26px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606
+}
+
+.contact-text{
+    margin: 20px 30px 20px 30px;
+}
+
+
+.contact-img{
+margin: 0px 30px 0px 30px;
+}
+
+.main-popup{
+    width: 100%;
+    height: 100%;
+    background: rgba(125, 151, 218, 0.8);
+    position: fixed;
+    top: 0;
+    display: none;
+
+}
+.main-popup.open{
+display: block;
+}
+
+
+.contact-list{
+    background: #E5EAF8;
+    padding: 42px 40px;
+    margin-left: 25%;
+}

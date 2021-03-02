@@ -1,0 +1,149 @@
+.contact-form{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+}
+
+.contact-us{
+   display: flex;
+}
+
+.heading-contctus{
+    margin: 56px 0px 15px 0px;
+    font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 3px;
+}
+
+.contact-table{
+    background: #E5EAF8;
+    padding: 42px 40px ;
+    
+}
+
+.field{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+}
+
+.field-message{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+}
+
+.field-message textarea {
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.field label {
+    margin-bottom: 3px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #1E0606
+}
+
+.field input { 
+    padding: 14px 0px 11px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.form-wrapper{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-wrapper .field{
+width: 290px;
+}
+
+.form-wrapper .field:first-child{
+    margin-right: 20px;
+}
+
+.contact-text{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+}
+
+.contact-help{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+text-transform: uppercase;
+color: #C29974;
+}
+
+.contact-button{
+    background: black;
+    color: white;
+    width: 106px;
+    padding: 8px 20px;
+    height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.checkbox-input{
+    position: relative;
+    width: 19px;
+height: 19px;
+}
+
+.checkbox-input::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C29974;
+    margin-left: 0px;
+    margin-top: 0px
+}
+
+.checkbox-button{
+    display: flex;
+    margin: 22px 0px 17px 0px;
+}
+
+.contact-item{
+    margin-left: 120px;
+}
+
+.contact-text{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.text-button{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+

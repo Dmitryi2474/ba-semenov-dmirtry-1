@@ -1,0 +1,248 @@
+.heading-toys{
+    margin-bottom: 15px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+text-transform: uppercase;
+color: #1E0606;
+}
+
+.breadcrumbs-toys{
+    margin-left: 14px;
+    margin-right: 20px;
+    font-family: Crimson Text;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+text-decoration: none;
+}
+
+.breadcrumbs3{
+    margin-left: 14px;
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    opacity: 0.5;
+text-decoration: none;
+}
+
+.main-toys{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-toys-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+
+.form-list{
+    display: flex;
+    margin-left: 80px;
+    margin-right: auto;
+    width: 1180px;
+    box-sizing: border-box;
+}
+
+.toys-list{
+    text-align: center;
+}
+
+.toys-list-two{
+    text-align: center;
+    margin-left: 13px;
+}
+
+.toys-text{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #1E0606;
+}
+
+.toys-cash{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #1E0606;
+}
+
+.form-fieldset-wrapper{
+    display: flex;
+    background: rgba(125, 151, 218, 0.2);
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: -110px;
+    margin-right: -110px;
+    padding-left: 110px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.selection-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 125px;
+}
+
+.coast{
+    margin: 42px 0px 15px 0px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+}
+
+.color{
+    list-style: none;
+    padding-left: 94px;
+    margin: 0px;
+}
+
+.color-head{
+    margin: 42px 0px 15px 0px; 
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+}
+
+.color-item{
+    margin-bottom: 10px;
+}
+
+.checkbox-input{
+    position: relative;
+    width: 19px;
+height: 19px;
+}
+
+
+.checkbox-input::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C29974;
+    margin-left: 0px;
+    margin-top: 0px
+}
+.head-delivery{
+    font-size: 16px;
+    line-height: 22px;
+}
+.radio-dilivery{
+  position: relative;
+  width: 20px;
+    height: 20px;
+}
+.radio-dilivery::before{
+    width: 20px;
+    height: 20px;
+    content: '';
+    position: absolute;
+    border: 2px solid #C29974;
+    box-sizing: border-box;
+    border-radius: 19px;;
+}
+
+.amount{
+    padding-left: 70px;
+list-style: none;
+margin: 0px;
+}
+
+.amount-heading{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 42px 0px 15px
+}
+
+.amount-button{
+    width: 80px;
+    height: 35px;
+    margin-right: -6px;
+    border: none;
+    text-decoration: none;
+    background:#FFFFFF;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+
+.submit-form{
+    margin-top: 79px;
+    margin-left: 60px;
+    width: 95px;
+    height: 40px;
+    background: black;
+    color: white;
+}
+.head-delivery{
+    margin: 42px 0px 15px
+}
+.choice-delivery{
+    padding-left: 127px;
+    margin: 0px;
+    list-style: none;
+}
+
+.number{
+    margin-top: -33px;
+}
+
+.number-item{
+    padding: 0px;
+    margin: 78px 0px 63px;
+}
+
+.vector-list1{
+margin-right: 457px;
+}
+
+.number-list{
+    margin-right: 67px;
+}
+
+.number-list:nth-child(5n){
+margin-right: 0px;
+}
+
+.vector-list2{
+    margin-left: 430px;
+}
