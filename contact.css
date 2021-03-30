@@ -19,47 +19,8 @@ letter-spacing: 3px;
 
 .contact-table{
     background: #E5EAF8;
-    padding: 42px 40px ;
+    padding: 42px 56px ;
     
-}
-
-.field{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 600px;
-}
-
-.field-message{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 600px;
-}
-
-.field-message textarea {
-    height: 150px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.field label {
-    margin-bottom: 3px;
-    font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-color: #1E0606
-}
-
-.field input { 
-    padding: 14px 0px 11px 20px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    background: #FFFFFF;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    color: #1E0606;
 }
 
 .form-wrapper{
@@ -69,7 +30,8 @@ color: #1E0606
 }
 
 .form-wrapper .field{
-width: 290px;
+width: 270px;
+
 }
 
 .form-wrapper .field:first-child{
@@ -145,5 +107,174 @@ height: 19px;
     margin-bottom: 0px;
     padding: 0px;
 }
+.field{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.field-2{
+    flex-direction: column-reverse;
+    display: flex;
+    width: 270px;
+    margin-left: 20px;
+    
+
+}
+
+.field-message{
+    display: flex;
+    flex-direction: column-reverse;
+    
+   
+}
+
+.field-message textarea {
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 600px;
+}
+
+.field label {
+    margin-bottom: 3px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #1E0606
+}
+
+.field input { 
+    padding: 14px 0px 11px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.field-name{
+    width: 580px;
+}
+
+.field-phone{
+    width:270px; 
+    padding-left: 0px;
+
+}
+
+.field-email{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-left: 0px;
+    padding: 14px 0px 11px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .contact-us{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+     }
+
+     .form-wrapper{
+        margin-top: 0px;
+
+     }
+
+
+     .form-wrapper .field{
+        margin-top: 20px;
+        
+    }
+    .form-wrapper .field:first-child{
+       
+        margin-right: -27px;
+    }
+
+    .field-name{
+        width: 516px;
+    }
+
+    .field-phone{
+        width: 235px;
+        padding-left: 0px;
+
+    }
+
+    .field-2{
+        width: 235px;
+        margin-left: 54px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .field-email{
+      width: 235px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding: 14px 0px 11px 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background: #FFFFFF;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #1E0606;
+    
+    }
+
+   
+    .contact-table{
+        background: #E5EAF8;
+        padding: 42px 56px ;
+
+    }
+
+
+    .field{
+        margin-right: 0px;
+    width: 100%;
+    
+    }
+
+    .field-message textarea {
+        height: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 535px;
+    }
+
+
+    .contact-form{
+        width: 648px;
+            
+    }
+
+    .contact-item{
+        justify-content: center;
+    text-align: center;
+    margin-left: 0;
+    }
+    
+}
+
+
 
 
