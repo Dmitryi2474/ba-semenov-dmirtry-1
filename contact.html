@@ -11,8 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="common.css" />
-</head>
-<title>Document</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -46,52 +45,55 @@
             <h1 class="heading-page">CONTACT US</h1>
             <a class="breadcrumbs" href="index.html">Home</a>
             <img src="./img/Vector (Stroke).png">
-            <a class="breadcrumbs2" href="contact.html">Contact us </a>
+            <a class="breadcrumbs2" href="#">Contact us </a>
         </div>
-
-        <form action="handleFormContact.html" method="post" class="contact-form">
-            <div class="contact-us">
-                <div class="contact-table">
-                    <div class="field">
-                        <input class="field-name" id="name-input" type="text" placeholder="Ivan Ivanov" required>
-                        <label for="name-input">Name</label>
-                    </div>
-                    <div class="form-wrapper">
+        
+        <main>
+            <form action="handleFormContact.html" method="post" class="contact-form">
+                <div class="contact-us">
+                    <div class="contact-table">
                         <div class="field">
-                            <input class="field-phone" id="phone-input" type="text">
-                            <label for="phone-input">Phone</label>
+                            <input class="field-name" id="name-input" type="text" placeholder="Ivan Ivanov" required>
+                            <label for="name-input">Name</label>
                         </div>
-                        <div class="field-2">
-                            <input class="field-email" id="email-input" type="email" required>
-                            <label for="email-input">E-mail</label>
+                        <div class="form-wrapper">
+                            <div class="field">
+                                <input class="field-phone" id="phone-input" type="text">
+                                <label for="phone-input">Phone</label>
+                            </div>
+                            <div class="field-2">
+                                <input class="field-email" id="email-input" type="email" required>
+                                <label for="email-input">E-mail</label>
+                            </div>
+                        </div>
+                        <div class="field-message">
+                            <textarea class="field-text" id="textarea" rows=5></textarea>
+                            <label for="textarea">Messege</label>
+                        </div>
+                        <div class="field">
+                            <button class="contact-button" type="submit">SUBMIT</button>
+                            <div class="checkbox-button">
+                                <input id="check-Green" type="checkbox" class="checkbox-input" value="Green">
+                                <p class="text-button">By clicking on the button, you consent to the processing of your
+                                    personal data</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="field-message">
-                        <textarea class="field-text" id="textarea" rows=5></textarea>
-                        <label for="textarea">Messege</label>
-                    </div>
-                    <div class="field">
-                        <button class="contact-button" type="submit">SUBMIT</button>
-                        <div class="checkbox-button">
-                            <input id="check-Green" type="checkbox" class="checkbox-input" value="Green">
-                            <p class="text-button">By clicking on the button, you consent to the processing of your personal data</p>
-                        </div>
+                    <div class="contact-item">
+                        <p class="contact-text">Our support team are on-hand to assist with any issues you are
+                            experiencing.
+                        </p>
+                        <p class="contact-text">Please use the form to contact us with your needs. Send us a message and
+                            we'll
+                            respond as soon as
+                            possible.</p>
+                        <p class="contact-help">An expert is waiting to help you!</p>
                     </div>
                 </div>
-                <div class="contact-item">
-                    <p class="contact-text">Our support team are on-hand to assist with any issues you are
-                        experiencing.
-                    </p>
-                    <p class="contact-text">Please use the form to contact us with your needs.<br> Send us a message and
-                        we'll
-                        respond as soon as<br>
-                        possible.</p>
-                    <p class="contact-help">An expert is waiting to<br>help you!</p>
-                </div>
-            </div>
-        </form>
+            </form>
+        </main>
     </div>
-    
+
     <section class="footer">
         <div class="main-block">
             <div class="footer-list">

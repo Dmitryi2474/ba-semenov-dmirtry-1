@@ -1,3 +1,4 @@
+
 .conteiner{
     display: flex;
     flex-direction: row;
@@ -10,12 +11,11 @@
 }
 
 .heading-text{
-    font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 31px;
-margin: 2px 0px 15px 0px;
-letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 2px 0px 15px 0px;
+    letter-spacing: 1px;
 }
 
 .date-heading{
@@ -38,7 +38,7 @@ letter-spacing: 1px;
 }
 
 .item-1{
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 .number-item{
@@ -46,17 +46,104 @@ margin-right: 20px;
 }
 
 .vector-list1{
-margin-right: 457px;
+    margin-right: 457px;
 }
 
 .number-list{
     margin-right: 67px;
+    
+}
+.number-one{
+    text-decoration: none;
+    margin-right: 67px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #C29974;
+}
+
+.number-two{
+    margin-right: 64px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.number-free{
+    margin-right: 64px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;   
+}
+
+.number-four{
+    margin-right: 64px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;  
 }
 
 .number-list:nth-child(5n){
-margin-right: 0px;
+    margin-right: 0px;
 }
 
 .vector-list2{
-    margin-left: 430px;
+    margin-left: 369px;
 }
+
+
+@media(max-width:768px){
+    .main-block {
+        width: 100%;
+        padding: 0 60px;
+    }
+
+    .item{
+        width: 306px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .item:nth-child(2n){
+        margin-right: 0;
+    }
+  
+
+    .img-item{
+        width: 306px;
+    }
+
+    .conteiner{
+        justify-content: flex-start;
+    }
+
+    .vector-list1{
+        margin-right: 191px;
+        margin-left: 60px;
+    }
+
+    .number-list:nth-child(5n){
+        margin-right: 191px;
+    }
+
+    .vector-list2{
+        margin-left: 0;
+    }
+
+}
+
+

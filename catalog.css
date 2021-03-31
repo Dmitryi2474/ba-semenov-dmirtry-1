@@ -3,12 +3,12 @@
 .category-title{
     margin-bottom: 15px;
     font-weight: bold;
-  font-size: 40px;
-  margin-top: 54px;
-  line-height: 49px;
-  text-transform: uppercase;
-  color: #1E0606;
-  letter-spacing: 3px;
+    font-size: 40px;
+    margin-top: 54px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    letter-spacing: 3px;
 }
 
 /*product-items*/
@@ -49,13 +49,12 @@
 .heading-title {
     position: absolute;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 32px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .about-us-title{
@@ -67,20 +66,56 @@ color: #FFFFFF;
 }
 
 .about-us-desc1{
-margin: 15px 0 15px 200px;
+    margin: 15px 0 15px 200px;
 }
 
 .about-us-desc2{
-margin-left: 200px;
-margin-bottom: 55px;
+    margin-left: 200px;
+    margin-bottom: 55px;
 }
 
 .about-us-title{
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-text-transform: uppercase;
-color: #1E0606;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+
+@media screen and (max-width: 768px){
+    .imeg-items{
+        width: 199px;
+    }
+
+    .product-list{
+        margin-right: 0;
+    }
+
+    .category-item{
+        width: 192px;
+    }
+
+    .category-item:nth-child(4n){
+        margin-left: 10px;
+    }
+
+    .about-us-desc{
+        margin: 20px 0;
+    }
+    
+    .about-us-desc1{
+        margin: 0;
+    }
+    
+    .about-us-desc2{
+        margin-left: 0;
+        margin-bottom: 55px;
+    }
+
+    .about-us-title{
+        margin: 0;
+        margin-top: 46px;
+    }
 }

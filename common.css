@@ -7,11 +7,10 @@
 
 body{
     font-family: 'Open Sans', 'Montserrat', Crimson Text;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-     color: #1E0606;
+    color: #1E0606;
 }
 
 
@@ -30,13 +29,13 @@ body{
 .menu-nav .item-link{
     display: flex;
     font-weight: normal;
-   font-size: 14px;
-   line-height: 19px;
-   align-items: center;
-   text-transform: uppercase;
-   color: #1E0606;
-   text-decoration: none;
-   list-style-type: none;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .menu-list{
@@ -50,15 +49,14 @@ body{
 }
 
 .heder-contact{
-    font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 19px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-color: #1E0606;
-text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+    text-decoration: none;
 }
 
 .header-search{
@@ -71,10 +69,9 @@ text-decoration: none;
 
 .heading-page{
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 49px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
     letter-spacing: 1px;
     margin: 55px 0px 15px 0px;
 }
@@ -84,22 +81,22 @@ line-height: 49px;
     font-family: Crimson Text;
     font-style: italic;
     font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-color: #1E0606;
-text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    text-decoration: none;
 }
 
 .breadcrumbs2{
     margin-left: 20px;
     font-family: Crimson Text;
-font-style: italic;
-font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-color: #1E0606;
-opacity: 0.5;
-text-decoration: none;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 /*foter*/
@@ -122,12 +119,11 @@ text-decoration: none;
 
 .item-link{
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footer-nav{ 
@@ -137,7 +133,6 @@ text-decoration: none;
 .box-haeding{
     margin-bottom: 15px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -151,18 +146,21 @@ text-decoration: none;
     margin-bottom: 15px;
     display: flex; 
 }
+
+.footer-star{
+    margin-bottom: 15px;
+    display: flex;
+}
     
 .costomer-heading{
     margin-bottom: 30px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-color: #AAAAAA;
-width: 394px;
-padding: 0 0 23px 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #AAAAAA;
+    width: 394px;
+    padding: 0 0 23px 0;
     border-bottom: 1px solid #666;
-
 }
 
 .costomer-list{
@@ -175,7 +173,6 @@ padding: 0 0 23px 0;
 
 .heading-conect{
     font-family: Open Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -193,28 +190,25 @@ padding: 0 0 23px 0;
     box-sizing: border-box;
     width: 380px;
     margin-right: 20px;
-
 }
 
 .footer-conect{
     margin-top: 23px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #A2A2A2;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A2A2A2;
 }
 
 .footer-costomer{
     margin-top: 23px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-margin-right:109px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right:109px;
 }
 
 .social-link{
@@ -236,7 +230,7 @@ margin-right:109px;
     margin-left: 25px;
 }
 .footer-item-flex svg{
-    margin-right: 2.88px;
+    margin-right: 3px;
 }
 .item-flex{
     display: flex;
@@ -251,11 +245,10 @@ margin-right:109px;
     background: #666666;
     padding: 9px 0px 9px 15px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
 .submit{
@@ -263,7 +256,6 @@ color: #FFFFFF;
     width: 81px;
     border-radius: 0px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -277,3 +269,37 @@ color: #FFFFFF;
 
 
 
+@media(max-width: 768px){
+    .main-block{
+        width: 100%; /* Ширина элемента в пикселах */
+        padding-left: 60px; /* Поля вокруг текста */
+        padding-right: 60px;
+        margin: auto; 
+    }
+
+    .box-haeding{
+        width: 202px;
+    }
+
+    .costomer-heading{
+        width: 202px;
+    }
+
+    .email{
+        width: 107px;
+    }
+    
+    .footer-star{
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .footer-conect{
+        text-align: right;
+        margin-top: -40px;
+    }
+
+    .item-flex{
+        margin-top: 23px;
+    }
+}

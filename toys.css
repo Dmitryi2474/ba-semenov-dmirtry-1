@@ -1,24 +1,23 @@
 .heading-toys{
     margin-bottom: 15px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 49px;
-text-transform: uppercase;
-color: #1E0606;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
 }
 
 .breadcrumbs-toys{
     margin-left: 14px;
     margin-right: 20px;
     font-family: Crimson Text;
-font-style: italic;
-font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-color: #1E0606;
-text-decoration: none;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    text-decoration: none;
 }
 
 .breadcrumbs3{
@@ -30,7 +29,7 @@ text-decoration: none;
     line-height: 25px;
     color: #1E0606;
     opacity: 0.5;
-text-decoration: none;
+    text-decoration: none;
 }
 
 .main-toys{
@@ -56,15 +55,6 @@ text-decoration: none;
     margin-top: 45px;
 }
 
-
-.form-list{
-    display: flex;
-    margin-left: 80px;
-    margin-right: auto;
-    width: 1180px;
-    box-sizing: border-box;
-}
-
 .toys-list{
     text-align: center;
 }
@@ -76,22 +66,28 @@ text-decoration: none;
 
 .toys-text{
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-color: #1E0606;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E0606;
 }
 
 .toys-cash{
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-color: #1E0606;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+}
+
+.form-list{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px;
+    box-sizing: border-box;
 }
 
 .form-fieldset-wrapper{
@@ -112,16 +108,16 @@ color: #1E0606;
     padding-left: 0px;
     margin: 0px;
     margin-bottom: 125px;
+    margin-left: -48px;
 }
 
 .coast{
     margin: 42px 0px 15px 0px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-color: #1E0606;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
 }
 
 .color{
@@ -133,11 +129,10 @@ color: #1E0606;
 .color-head{
     margin: 42px 0px 15px 0px; 
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-color: #1E0606;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
 }
 
 .color-item{
@@ -147,9 +142,8 @@ color: #1E0606;
 .checkbox-input{
     position: relative;
     width: 19px;
-height: 19px;
+    height: 19px;
 }
-
 
 .checkbox-input::before{
     content: '';
@@ -160,15 +154,18 @@ height: 19px;
     margin-left: 0px;
     margin-top: 0px
 }
+
 .head-delivery{
     font-size: 16px;
     line-height: 22px;
 }
+
 .radio-dilivery{
-  position: relative;
-  width: 20px;
+    position: relative;
+    width: 20px;
     height: 20px;
 }
+
 .radio-dilivery::before{
     width: 20px;
     height: 20px;
@@ -181,8 +178,8 @@ height: 19px;
 
 .amount{
     padding-left: 70px;
-list-style: none;
-margin: 0px;
+    list-style: none;
+    margin: 0px;
 }
 
 .amount-heading{
@@ -199,10 +196,9 @@ margin: 0px;
     text-decoration: none;
     background:#FFFFFF;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .submit-form{
@@ -213,9 +209,11 @@ line-height: 22px;
     background: black;
     color: white;
 }
+
 .head-delivery{
     margin: 42px 0px 15px
 }
+
 .choice-delivery{
     padding-left: 127px;
     margin: 0px;
@@ -232,17 +230,57 @@ line-height: 22px;
 }
 
 .vector-list1{
-margin-right: 457px;
+    margin-right: 457px;
 }
 
-.number-list{
+.number-one{
+    text-decoration: none;
     margin-right: 67px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #C29974;
+}
+
+.number-two{
+    margin-right: 64px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.number-free{
+    margin-right: 64px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;   
+}
+
+.number-four{
+    margin-right: 64px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;  
 }
 
 .number-list:nth-child(5n){
-margin-right: 0px;
+    margin-right: 0px;
 }
 
 .vector-list2{
-    margin-left: 430px;
+    margin-left: 369px;
 }

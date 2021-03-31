@@ -1,7 +1,6 @@
 .contact-form{
     margin-top: 50px;
     margin-bottom: 60px;
-    
 }
 
 .contact-us{
@@ -10,17 +9,15 @@
 
 .heading-contctus{
     margin: 56px 0px 15px 0px;
-    font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 49px;
-letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 3px;
 }
 
 .contact-table{
     background: #E5EAF8;
     padding: 42px 56px ;
-    
 }
 
 .form-wrapper{
@@ -30,8 +27,7 @@ letter-spacing: 3px;
 }
 
 .form-wrapper .field{
-width: 270px;
-
+    width: 270px;
 }
 
 .form-wrapper .field:first-child{
@@ -40,21 +36,19 @@ width: 270px;
 
 .contact-text{
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #1E0606;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
 }
 
 .contact-help{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 34px;
-text-transform: uppercase;
-color: #C29974;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
 }
 
 .contact-button{
@@ -64,7 +58,6 @@ color: #C29974;
     padding: 8px 20px;
     height: 40px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -73,7 +66,7 @@ color: #C29974;
 .checkbox-input{
     position: relative;
     width: 19px;
-height: 19px;
+    height: 19px;
 }
 
 .checkbox-input::before{
@@ -110,7 +103,6 @@ height: 19px;
 .field{
     display: flex;
     flex-direction: column-reverse;
-    
 }
 
 .field-2{
@@ -118,15 +110,11 @@ height: 19px;
     display: flex;
     width: 270px;
     margin-left: 20px;
-    
-
 }
 
 .field-message{
     display: flex;
     flex-direction: column-reverse;
-    
-   
 }
 
 .field-message textarea {
@@ -138,11 +126,10 @@ height: 19px;
 .field label {
     margin-bottom: 3px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-color: #1E0606
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606
 }
 
 .field input { 
@@ -150,7 +137,6 @@ color: #1E0606
     border: 1px solid rgba(0, 0, 0, 0.2);
     background: #FFFFFF;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
@@ -164,7 +150,6 @@ color: #1E0606
 .field-phone{
     width:270px; 
     padding-left: 0px;
-
 }
 
 .field-email{
@@ -176,12 +161,10 @@ color: #1E0606
     border: 1px solid rgba(0, 0, 0, 0.2);
     background: #FFFFFF;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
-
 }
 
 
@@ -194,16 +177,13 @@ color: #1E0606
 
      .form-wrapper{
         margin-top: 0px;
-
      }
 
-
      .form-wrapper .field{
-        margin-top: 20px;
-        
+        margin-top: 20px;   
     }
+
     .form-wrapper .field:first-child{
-       
         margin-right: -27px;
     }
 
@@ -214,7 +194,6 @@ color: #1E0606
     .field-phone{
         width: 235px;
         padding-left: 0px;
-
     }
 
     .field-2{
@@ -226,33 +205,29 @@ color: #1E0606
     }
 
     .field-email{
-      width: 235px;
+        width: 235px;
         padding-left: 0px;
         margin-left: 0px;
         padding: 14px 0px 11px 20px;
         border: 1px solid rgba(0, 0, 0, 0.2);
         background: #FFFFFF;
         font-family: Open Sans;
-        font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 25px;
         color: #1E0606;
-    
     }
 
    
     .contact-table{
         background: #E5EAF8;
         padding: 42px 56px ;
-
     }
 
 
     .field{
         margin-right: 0px;
-    width: 100%;
-    
+        width: 100%;
     }
 
     .field-message textarea {
@@ -263,14 +238,13 @@ color: #1E0606
 
 
     .contact-form{
-        width: 648px;
-            
+        width: 648px;       
     }
 
     .contact-item{
         justify-content: center;
-    text-align: center;
-    margin-left: 0;
+        text-align: center;
+        margin-left: 0;
     }
     
 }

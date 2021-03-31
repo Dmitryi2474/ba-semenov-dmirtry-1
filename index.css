@@ -1,9 +1,7 @@
-.contact-form{
-}
+
 
 .contact-form.open{
     display: block;
-
 }
 
 .contact-form-btn{
@@ -27,38 +25,35 @@
 
 .colecttion-title{ 
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 110%;
-color: #1E0606;
-margin: auto;
-
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    margin: auto;
 }
 
 .colecttion-text{
     font-family: Crimson Text;
-font-style: italic;
-font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-color: #1E0606;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
 }
 
 .colecttion-item{
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .number-solid{
-list-style: none;
+    list-style: none;
 }
+
 .number{
     margin-top: 17px;
     margin-bottom: 0px;
@@ -69,7 +64,6 @@ list-style: none;
     margin-top: 0px;
     margin-bottom: 10px;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 300;
     font-size: 60px;
     line-height: 73px;
@@ -91,7 +85,7 @@ list-style: none;
 }
 
 .slleder-left{
-padding: 89px 0 0 44px;
+    padding: 89px 0 0 44px;
 }
 
 .slleder-rieght{
@@ -100,16 +94,21 @@ padding: 89px 0 0 44px;
 }
 
 .colecttion-batton{
+    cursor: pointer;
     padding: 9px 22px;
     background-color: black;
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.colecttion-batton:hover{
+    background: #C29974;
 }
 
 .colecttion-conteiner-botton{
@@ -126,13 +125,12 @@ color: #FFFFFF
 .category-heading{
     margin-top: 90px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-text-transform: uppercase;
-color: #1E0606;
-margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 0px;
 }
 
 .category-list{
@@ -156,7 +154,6 @@ margin-bottom: 0px;
 .heading-title{
     position: absolute;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
@@ -165,19 +162,19 @@ margin-bottom: 0px;
     color: #FFFFFF;
 }
 
-.klick-button{
+.click-button{
     padding-left: 0px;
     margin: 0px; 
 }
 
 .left-btn, 
 .reight-btn {
-border: none;
+    border: none;
 }
 
 .klick{
-   display: flex;
-   margin-top: 33px;
+    display: flex;
+    margin-top: 33px;
 }
 
 .klick-text{
@@ -188,75 +185,74 @@ border: none;
 
 /*deliveri*/
 
-.diliveri-list{
+.delivery-list{
     padding-left: 0px;
     margin-top: 90px;
 
 }
 
-.diliveri-title{
+.delivery-title{
     margin-bottom: 19px;
     margin-top: 30px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-text-transform: uppercase;
-color: #1E0606;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
 }
 
-.diliveri-heading{
+.delivery-heading{
     margin: 0px;
 }
 
-.diliveri-list{
+.delivery-list{
     display: flex;
     margin-bottom: 0px;
 }
 
-.diliveri-link{
+.delivery-link{
     margin-left: 120px;
 }
 
 
-.diliveri-heading{
+.delivery-heading{
     font-family: Crimson Text;
-font-style: italic;
-font-weight: normal;
-font-size: 26px;
-line-height: 32px;
-color: #1E0606;
-margin-top: 22px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    margin-top: 22px;
 }
 
-.diliveri-fon{
+.delivery-fon{
     font-family: Crimson Text;
-font-style: italic;
-font-weight: bold;
-font-size: 26px;
-line-height: 32px;
-color: #1E0606;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
 }
 
-.diliveri-items{
+.delivery-items{
     list-style: none;
 }
 
-.diliveri-button{
+.delivery-button{
     margin-top: 26px;
     width: 149px;
     height: 40px;
     padding: 9px 18px;
     background-color: black;
     font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
 }
 
 /*partner*/
@@ -267,8 +263,7 @@ color: #FFFFFF
     display: flex;
     list-style: none;
     justify-content: space-between;
-    padding-left: 0px;
-    
+    padding-left: 0px;  
 }
 
 /*disign-contact*/
@@ -277,62 +272,61 @@ color: #FFFFFF
     display: flex;
 }
 
-.Life-Kids-title{
-margin-right: 57px;
-background: #E1F0F7;
-width: 543px;
-height: 236px;
+.life-Kids-title{
+    margin-right: 57px;
+    background: #E1F0F7;
+    width: 543px;
+    height: 236px;
 }
 
-.Life-Kids-heading{
+.life-Kids-heading{
     margin-top: -26px;
     margin-bottom: 0px;
     margin-left: 30px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-text-transform: uppercase;
-color: #1E0606
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606
 }
 
 .about{
     margin: 10px 0px 0px 30px;
     font-family: Crimson Text;
-font-style: italic;
-font-weight: normal;
-font-size: 26px;
-line-height: 32px;
-color: #1E0606;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
 }
 
 .disign-text{
     margin: 10px 30px 0px;
 }
 
-.Life-Kids-button{
+.life-Kids-button{
     margin: 20px 30px;
     width: 123px;
     height: 40px;
     padding: 9px 20px;
     background-color: black;
     font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .contact-title{
-    background: #E1F0F7;;
-    position: relative ;
-    width:543px ;
-    height:209px ;
-    margin-bottom: 174px;
+    background: #E1F0F7;
+    position: relative;
+    width:543px;
+    height:209px;
+    margin-bottom:174px;
 }
 
 .contac-heading{
@@ -340,12 +334,11 @@ color: #FFFFFF;
     margin-bottom: 20px;
     margin-left: 30px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-text-transform: uppercase;
-color: #1E0606
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606
 }
 
 .contact-text{
@@ -354,7 +347,7 @@ color: #1E0606
 
 
 .contact-img{
-margin: 0px 30px 0px 30px;
+    margin: 0px 30px 0px 30px;
 }
 
 .main-popup{
@@ -364,15 +357,16 @@ margin: 0px 30px 0px 30px;
     position: fixed;
     top: 0;
     display: none;
-
 }
+
 .main-popup.open{
-display: block;
+    display: block;
 }
-
 
 .contact-list{
     background: #E5EAF8;
     padding: 42px 40px;
     margin-left: 25%;
 }
+
+

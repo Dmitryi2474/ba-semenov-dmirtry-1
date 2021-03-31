@@ -1,0 +1,298 @@
+.animation-scene{
+    margin-top: -548px;
+    margin-bottom: -790px;
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+
+.Car{
+    z-index: 1;
+     top: -373px;
+     position: relative;
+     right: -588px;
+     animation-name: Car ;
+ animation-duration: 10s;
+
+ animation-timing-function: cubic-bezier(0.1, 0.51, 0.74, 0.1);
+ }
+ 
+ @keyframes Car {
+     0%{
+         right: -100%;
+         
+     }
+     50%{
+      
+
+     }
+ 
+     100%{
+         right: 100%;
+         
+ 
+     }
+ }
+ .message{
+     position: relative;
+     top: -570px;
+     z-index: 1;
+     animation-name: message;
+     animation-duration: 10s;
+ 
+ animation-timing-function: cubic-bezier(0.1, 0.31, 0.6, 0.1);
+ }
+ 
+ @keyframes message {
+    0%{
+        right: -25%;
+        opacity: -1; 
+    }
+    
+    45%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        right: 100%;
+        opacity: -1;
+    }
+}
+
+ .city{
+    position: relative;
+    WIDTH: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+ }
+ 
+ .lamp{
+     position: relative;
+     left: 1032px;
+     top: 600px;
+     z-index: 2;
+ }
+ 
+ .woman{
+     position: relative;
+     right: 850px;
+     top: -307px;
+     z-index: 1
+ }
+ 
+ .case{
+     position: relative;
+     right: -200px;
+     top: -426px;
+     z-index: 1
+ }
+ 
+ .message-girl{
+     position: relative;
+     right: 79px;
+     top: -681px;
+     z-index: 1;
+     animation-name:message-girl ;
+     animation-duration: 10s;
+     animation-delay: 2.0s;
+    
+     
+ }
+ @keyframes message-girl {
+     0%{
+         opacity: 1;
+
+     }
+     8%{
+         opacity: 0;
+     }
+     75%{
+         opacity: -1;
+     }
+     100%{
+         opacity: -1;
+
+     }
+ }
+
+
+ 
+ .man{
+     position: relative;
+     top: 600px;
+     left: 96px;
+     z-index: 2
+ }
+
+ .pen{
+    position: relative;
+    top: -1033px;
+    left: -266px;
+    animation-name: pen;
+    animation-duration: 11s;
+    animation-iteration-count: 1;
+
+ }
+
+ @keyframes pen {
+    0%{
+        opacity: -1;
+    }
+    22%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 1;
+    }
+   40%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: -1;
+
+    }
+}
+
+ 
+ .message-man{
+     position: relative;
+     top: 253px;
+     left: -127px;
+     z-index: 1;
+     animation-name:message-man ;
+     animation-duration: 11s;
+     animation-iteration-count: 1;
+     
+
+ }
+
+ @keyframes message-man{
+    0%{
+        opacity: -1;
+    }
+    22%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 1;
+    }
+   40%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: -1;
+
+    }
+}
+ 
+ .car-one{
+     position: relative;
+    
+     top: -605px;
+     animation-name: car-one;
+     animation-duration: 10s;
+ 
+ animation-timing-function: linear;
+ 
+ 
+ }
+ @keyframes car-one{
+     0%{
+         left: -100%;
+ 
+     }
+     100%{
+         left: 100%;
+ 
+     }
+ }
+ 
+ .car-two{
+    position: relative;
+    top: -612px;
+    left: 130px;
+    animation-name: car-two;
+    animation-duration: 10s;
+
+animation-timing-function: linear;
+ }
+ @keyframes car-two {
+    0%{
+        left: -100%;
+
+    }
+    100%{
+        left: 100%;
+
+    }
+}
+ 
+ .car-free{
+    position: relative;
+    top: -635px;
+    left: 207px;
+    animation-name: car-free;
+    animation-duration: 10s;
+
+animation-timing-function: linear;
+ }
+ @keyframes car-free {
+    0%{
+        left: -100%;
+
+    }
+    100%{
+        left: 100%;
+
+    }
+}
+ 
+ .car-four{
+    position: relative;
+    top: -1027px;
+    animation-name: car-four;
+    animation-duration: 10s;
+animation-timing-function: linear;  
+ }
+ @keyframes car-four {
+    0%{
+        left: -100%;
+
+    }
+    100%{
+        left: 100%;
+
+    }
+}
+ 
+ .sky{
+     position: relative;
+     top: 620px;
+ }
+
+ .lamp-two{
+    position: relative;
+    top: -987px;
+    left: 200px;
+ }
+
+ .lamp-free{
+    position: relative;
+    top: -987px;
+    left: 850px;
+ }
